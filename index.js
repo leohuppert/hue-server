@@ -50,5 +50,8 @@ app.put("/lights/:id/hue", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`------HUE API listening at http://localhost:${PORT}`);
+  process.stdout.write("\033c");
+  console.log(
+    `💡💡 ------ HUE API listening at http://localhost:${PORT} ------ 💡💡`
+  );
 });
