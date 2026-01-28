@@ -10,7 +10,7 @@
 curl -X POST -d {\"devicetype\":\"my_hue_app#<NAME>\"} <BRIDGE_IP>/api
 ```
 
-> Press the link button on the bridge and execute it again. Keep the token you were sent back.
+> Press the link button on the bridge and execute it again. Keep the token you were sent.
 
 ## env file
 
